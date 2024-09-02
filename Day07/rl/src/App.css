@@ -1,0 +1,151 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+#button{
+  background-color: rgb(18, 207, 18);
+  width: 278px;
+}
+.userinput{
+  color: #28ea28;
+}
+
+.button{
+  background-color: #28ea28;
+  width: 240px;
+  margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 20px;
+}
+
+/* .button {
+  background-color: yellowgreen; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline;
+  
+} */
+
+.button:hover {
+  background-color: #ccc; 
+}
+.uni{
+  text-decoration: solid black;
+}
+
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100vh;
+  background-color: #f0f0f0;
+  border-left: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drawer h2 {
+  margin-top: 0;
+}
+
+.drawer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drawer label {
+  margin-bottom: 10px;
+}
+
+.drawer input[type="text"], .drawer input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.drawer button[type="button"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.drawer button[type="button"]:hover {
+  background-color: #3e8e41;
+}
+
+/* .table {
+  border: 1px solid red;
+  border-collapse: collapse;
+} */
+
+ .table td {
+  border: 1px solid red;
+  padding: 10px;
+  text-align: left;
+}

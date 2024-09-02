@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            margin-right: 20px;
+        }
+    </style>
+    <style>
+        img{
+            margin-right: 200px;
+            margin-bottom: 40px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id ="div"></div>
+    <!-- <a href="www.google.com">Using this </a> -->
+   
+    <!-- <script>
+        const links =[
+            {
+                url:'https://www.google.com',text:"Google"
+            },
+            {
+                url:'https://www.google.com',text:"Yahoo"
+            },
+            {
+                url:'https://www.google.com',text:"youtube"
+            },
+        ]
+        links.forEach(item => {
+            const aTag = document.createElement('a')
+            aTag.setAttribute('href',item.url)
+            aTag.textContent = item.text
+            document.body.appendChild(aTag)
+        })
+    </script> -->
+
+    <script>
+        const img =[
+            {
+                url:'img1.jpeg'
+            },
+            {
+                url:'img2.jpeg'
+            },
+            {
+                url:'img3.jpeg'
+            },
+            {
+                url:'img4.jpeg'
+            }
+        ];
+        img.forEach(item =>{
+            const imgTag = document.createElement('img');
+            imgTag.setAttribute('src',item.url);
+            imgTag.setAttribute('height','100px');
+            imgTag.setAttribute('width','100px');
+
+
+            document.body.appendChild(imgTag);
+        })
+    </script>
+    
+    <script>
+        let dataSet = []
+        console.log("dataset",dataSet)
+        const getData = async() =>
+    </script>
+
+</body>
+</html>
